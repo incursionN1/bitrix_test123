@@ -1,0 +1,134 @@
+<<<<<<< HEAD
+# Ядро Битрикс (исключаем всё, кроме нужного)
+/bitrix/
+!/bitrix/.htaccess
+!/bitrix/php_interface/
+!/bitrix/php_interface/init.php
+!/bitrix/php_interface/dbconn.php
+!/bitrix/php_interface/after_connect.php
+!/bitrix/php_interface/after_connect_d7.php
+!/bitrix/templates/
+!/bitrix/templates/.access.php
+
+# Исключаем папки внутри bitrix, кроме некоторых
+/bitrix/backup/
+/bitrix/cache/
+/bitrix/managed_cache/
+/bitrix/stack_cache/
+/bitrix/html_pages/
+/bitrix/updates/
+/bitrix/components/
+/bitrix/modules/
+/bitrix/activities/
+/bitrix/gadgets/
+/bitrix/wizards/
+/bitrix/images/
+/bitrix/js/
+/bitrix/css/
+/bitrix/panel/
+/bitrix/themes/
+
+# Временные файлы и кэш
+/upload/
+/upload/resize_cache/
+/upload/tmp/
+
+# Логи
+/bitrix/logs/
+*.log
+
+# Конфигурационные файлы (если не нужно хранить в репозитории)
+/.settings.php
+/.access.php
+/bitrix/.settings.php
+/bitrix/security/
+
+# Файлы IDE и ОС
+.idea/
+.DS_Store
+Thumbs.db
+
+# Node.js / Composer зависимости
+/node_modules/
+/vendor/
+/composer.lock
+/package-lock.json
+
+# Файлы сборки
+/.env
+*.local.*
+=======
+# Файлы
+.access.php
+.bottom.menu.php
+.department.menu_ext.php
+.htaccess
+.section.php
+.top.menu.php
+.top.menu_ext.php
+.top_links.menu.php
+404.php
+500.html
+auth.php
+desktop.php
+favicon.ico
+index.php
+index_old.php
+license_restriction.php
+robots.txt
+storage.php
+urlrewrite.php
+ustat.php
+
+# Папки
+/agent_contract/
+/ai/
+/apconnect/
+/auth/
+/automation/
+/bi/
+/biconnector/
+/bitrix/
+/bizproc/
+/blog/
+/calendar/
+/company/
+/conference/
+/configs/
+/crm/
+/departments/
+/desktop_app/
+/devops/
+/docs/
+/humanresources/
+/images/
+/include/
+/kb/
+/knowledge/
+/mail/
+/market/
+/marketing/
+/marketplace/
+/mobile/
+/oauth/
+/onec/
+/page/
+/pub/
+/report/
+/rpa/
+/saleshub/
+/search/
+/services/
+/shop/
+/sign/
+/sitemap/
+/sites/
+/spaces/
+/stream/
+/tasks/
+/telephony/
+/terminal/
+/timeman/
+/upload/
+/workgroups/
+>>>>>>> master
