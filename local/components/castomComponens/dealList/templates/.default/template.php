@@ -90,6 +90,7 @@
 
 <script>
     BX.ready(() => {
+        BX.loadExt('ui.vue').then(function() {
         if (BX.Vue3) {
             const app = BX.Vue3.createApp({
                 data() {
@@ -163,5 +164,6 @@
                 }
             }).mount('#app');
         }
+        });
     });
 </script>
